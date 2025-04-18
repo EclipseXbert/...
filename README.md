@@ -12,16 +12,21 @@
       background-color: #121212; /* Sfondo nero */
       color: #E0E0E0; /* Testo grigio chiaro */
     }
-    /* Header */
+    /* Header con due righe */
     header {
       background-color: #333333; /* Grigio scuro */
       padding: 20px;
       text-align: center;
     }
-    header h1 {
+    header .top-title {
       margin: 0;
       font-size: 2em;
-      color: #FFFFFF; /* Tutto il testo in bianco */
+      color: #FFD700; /* EclipseXbert in giallo */
+    }
+    header .welcome {
+      margin: 0;
+      font-size: 1.5em;
+      color: #FFFFFF; /* Testo bianco */
     }
     /* Sezione hero: solo immagine */
     section.hero {
@@ -34,7 +39,7 @@
       height: 100%;
       object-fit: cover;
     }
-    /* Sezione contenuto per il testo e il link */
+    /* Sezione contenuto: testi e link centrati */
     section.content {
       text-align: center;
       background-color: #1E1E1E; /* Grigio antracite */
@@ -71,8 +76,10 @@
 </head>
 <body>
   <header>
-    <!-- Header con EclipseXbert in bianco -->
-    <h1>Benvenuto Sul Sito Di EclipseXbert</h1>
+    <!-- Prima riga: EclipseXbert in giallo, centrato -->
+    <h1 class="top-title">EclipseXbert</h1>
+    <!-- Seconda riga: Benvenuto Sul Sito Di EclipseXbert in bianco, centrato -->
+    <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
   </header>
   <main>
     <!-- Sezione hero: immagine senza testo sovrapposto -->
