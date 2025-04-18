@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,50 +9,56 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      color: #E0E0E0; /* Colore del testo */
       background-color: #121212; /* Sfondo nero */
+      color: #E0E0E0; /* Testo grigio chiaro */
     }
+    /* Header */
     header {
-      background-color: #333333;
-      text-align: center;
+      background-color: #333333; /* Grigio scuro */
       padding: 20px;
+      text-align: center;
     }
     header h1 {
-      color: #FFFFFF;
+      margin: 0;
+      font-size: 2em;
     }
-    main {
-      padding: 20px;
+    header h1 span {
+      color: #FFD700; /* EclipseXbert in giallo */
     }
-    /* Sezione "hero" per l'immagine e il testo in sovrapposizione */
+    /* Sezione hero: solo immagine */
     section.hero {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 80vh; /* Occupa l'80% dell'altezza della viewport */
+      width: 100%;
+      height: 80vh; /* L'immagine occupa l'80% della viewport */
       overflow: hidden;
     }
     section.hero img {
       width: 100%;
       height: 100%;
-      object-fit: cover; /* L'immagine copre l'intera area */
-      filter: brightness(0.7); /* Leggero dark per evidenziare il testo */
+      object-fit: cover;
     }
-    section.hero .overlay {
-      position: absolute;
-      z-index: 2;
+    /* Sezione contenuto per il testo e il link */
+    section.content {
       text-align: center;
-      font-size: 3em;
-      font-weight: bold;
-      color: #FFFFFF;
-    }
-    /* Stili per ulteriori sezioni */
-    section {
-      background-color: #1E1E1E;
+      background-color: #1E1E1E; /* Grigio antracite */
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-      margin-top: 20px;
+      margin: 20px;
+    }
+    section.content h2 {
+      margin: 10px 0;
+    }
+    section.content p {
+      margin: 10px 0;
+    }
+    section.content a {
+      color: #FFD700; /* Link in giallo */
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    section.content a:hover {
+      text-decoration: underline;
     }
     /* Footer */
     footer {
@@ -63,30 +69,20 @@
       font-size: 14px;
       margin-top: 20px;
     }
-    /* Stile per i link */
-    a {
-      color: #FFD700;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Benvenuto Sul Sito Di EclipseXbert</h1>
+    <!-- Header con EclipseXbert in giallo -->
+    <h1>Benvenuto Sul Sito Di <span>EclipseXbert</span></h1>
   </header>
   <main>
-    <!-- Sezione "hero" con immagine e testo overlay -->
+    <!-- Sezione hero: immagine senza testo sovrapposto -->
     <section class="hero">
-      <img src="https://leganerd.com/wp-content/uploads/2022/05/storie_di_immaginaria_realta_sole_eclisse_artwork_fantasy.jpg" alt="Immagine di EclipseXbert">
-      <div class="overlay">EclipseXbert</div>
+      <img src="https://leganerd.com/wp-content/uploads/2022/05/storie_di_immaginaria_realta_sole_eclisse_artwork_fantasy.jpg" alt="Immagine di copertina">
     </section>
-    
-    <!-- Altra sezione con link -->
-    <section>
+    <!-- Sezione contenuto: testi e link centrati -->
+    <section class="content">
       <h2>Clicca il link che troverai sotto e ovviamente seguimi!</h2>
       <p>Clicca qua sotto:</p>
       <a href="https://www.youtube.com/@EclipseXbert" target="_blank">EclipseXbert channels</a>
