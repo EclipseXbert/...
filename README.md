@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -21,9 +21,7 @@
     header h1 {
       margin: 0;
       font-size: 2em;
-    }
-    header h1 span {
-      color: #FFD700; /* EclipseXbert in giallo */
+      color: #FFFFFF; /* Tutto il testo in bianco */
     }
     /* Sezione hero: solo immagine */
     section.hero {
@@ -73,8 +71,8 @@
 </head>
 <body>
   <header>
-    <!-- Header con EclipseXbert in giallo -->
-    <h1>Benvenuto Sul Sito Di <span>EclipseXbert</span></h1>
+    <!-- Header con EclipseXbert in bianco -->
+    <h1>Benvenuto Sul Sito Di EclipseXbert</h1>
   </header>
   <main>
     <!-- Sezione hero: immagine senza testo sovrapposto -->
