@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -12,19 +12,18 @@
       background-color: #121212; /* Sfondo nero */
       color: #E0E0E0; /* Testo grigio chiaro */
     }
-    /* Header: due righe per il titolo */
+    /* Header */
     header {
       background-color: #333333; /* Grigio scuro */
       padding: 20px;
+      text-align: center;
     }
     header h1 {
       margin: 0;
-      text-align: center;
       font-size: 2em;
     }
-    /* Specifica per la seconda riga in giallo */
-    header h1.yellow {
-      color: #FFD700;
+    header h1 span {
+      color: #FFD700; /* EclipseXbert in giallo */
     }
     /* Sezione hero: solo immagine */
     section.hero {
@@ -35,9 +34,9 @@
     section.hero img {
       width: 100%;
       height: 100%;
-      object-fit: cover; /* L'immagine copre tutta l'area */
+      object-fit: cover;
     }
-    /* Sezione content: testo e link centrati */
+    /* Sezione contenuto per il testo e il link */
     section.content {
       text-align: center;
       background-color: #1E1E1E; /* Grigio antracite */
@@ -46,7 +45,9 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       margin: 20px;
     }
-    section.content h2,
+    section.content h2 {
+      margin: 10px 0;
+    }
     section.content p {
       margin: 10px 0;
     }
@@ -72,15 +73,15 @@
 </head>
 <body>
   <header>
-    <h1>Benvenuto Sul Sito Di</h1>
-    <h1 class="yellow">EclipseXbert</h1>
+    <!-- Header con EclipseXbert in giallo -->
+    <h1>Benvenuto Sul Sito Di <span>EclipseXbert</span></h1>
   </header>
   <main>
-    <!-- Sezione hero: immagine di copertina -->
+    <!-- Sezione hero: immagine senza testo sovrapposto -->
     <section class="hero">
       <img src="https://leganerd.com/wp-content/uploads/2022/05/storie_di_immaginaria_realta_sole_eclisse_artwork_fantasy.jpg" alt="Immagine di copertina">
     </section>
-    <!-- Sezione content: testo e link centrati -->
+    <!-- Sezione contenuto: testi e link centrati -->
     <section class="content">
       <h2>Clicca il link che troverai sotto e ovviamente seguimi!</h2>
       <p>Clicca qua sotto:</p>
