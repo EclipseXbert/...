@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -33,6 +34,7 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Effetto ombra */
+            margin-bottom: 20px;
         }
 
         /* Footer */
@@ -64,7 +66,11 @@
         <section>
             <h1>Clicca il link che troverai sotto e ovviamente seguimi!</h1>
             <p>Clicca qua sotto:</p>
-            <a href="https://www.youtube.com/@EclipseXbert">EclipseXbert channels</a>
+            <!-- Link con l'immagine -->
+            <a href="https://www.youtube.com/@EclipseXbert" target="_blank">
+                <!-- Sostituisci "https://example.com/tuo-logo.jpg" con l'URL della tua immagine -->
+                <img src="https://example.com/tuo-logo.jpg" alt="Logo di EclipseXbert" style="max-width:300px; width:100%;">
+            </a>
         </section>
     </main>
     <footer>
