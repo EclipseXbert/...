@@ -39,7 +39,7 @@
       height: 100%;
       object-fit: cover;
     }
-    /* Sezione contenuto: testi e link centrati */
+    /* Sezione contenuto per il testo e il link */
     section.content {
       text-align: center;
       background-color: #1E1E1E; /* Grigio antracite */
