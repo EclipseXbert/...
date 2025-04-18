@@ -58,13 +58,13 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Black & Gray Website</h1>
+        <h1>Benvenuto Sul Sito Di EclipseXbert</h1>
     </header>
     <main>
         <section>
-            <h1>Prova Numero Uno</h1>
-            <p>Clicca il link qua sotto:</p>
-            <a href="https://www.youtube.com/watch?v=Y2NkuFIlLEo&list=RD0ae8rS7-QoU&index=20">Wrecked Official Music Video</a>
+            <h1>Clicca il link che troverai sotto e ovviamente seguimi!</h1>
+            <p>Clicca qua sotto:</p>
+            <a href="https://www.youtube.com/@EclipseXbert">EclipseXbert channels</a>
         </section>
     </main>
     <footer>
