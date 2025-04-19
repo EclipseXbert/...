@@ -98,6 +98,8 @@
         Visita il canale YouTube
       </a>
       <a class="button" href="https://www.youtube.com/watch?v=uLHqpjW3aDs" target="_blank">
+        Guarda il Video
+        <a class="button" href="https://www.youtube.com/watch?v=VejTk-Lor8I" target="_blank">
         Guarda il video speciale
       </a>
     </div>
