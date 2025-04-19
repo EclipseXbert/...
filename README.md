@@ -1,3 +1,4 @@
+
 <html lang="it">
 <head>
   <meta charset="UTF-8">
@@ -26,12 +27,14 @@
     .container {
       padding: 20px;
     }
-    /* Immagine centrale */
+    /* Immagine centrale con fusione */
     .center-image {
       display: block;
       margin: 0 auto 20px;
-      width: 236px;  /* Puoi lasciarla così o usare max-width:100% se preferisci */
-      height: auto;
+      width: 236px;
+      max-width: 100%;
+      /* La modalità di fusione fa in modo che l'immagine "prenda" i colori dello sfondo */
+      mix-blend-mode: multiply;
     }
     /* Logo in grande */
     .logo {
@@ -65,7 +68,7 @@
 </head>
 <body>
   <div class="container">
-    <!-- Immagine centrale -->
+    <!-- Immagine centrale: prova a cambiare mix-blend-mode se necessario (es. overlay) -->
     <img class="center-image" src="https://i.pinimg.com/236x/5c/f1/d4/5cf1d45119534c59ee373fa6d0360032.jpg" alt="Immagine centrale">
     
     <!-- Logo e sottotitolo -->
