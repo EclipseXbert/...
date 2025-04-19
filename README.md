@@ -75,7 +75,7 @@
     }
     /* Footer fissato in basso */
     footer {
-      background-color: #333333;
+      background-color: #FFD700;
       text-align: center;
       padding: 10px;
       color: #AAAAAA;
