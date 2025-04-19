@@ -5,39 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Benvenuto Sul Sito Di EclipseXbert</title>
   <style>
-    /* Resetta margini e padding, imposta larghezza e altezza */
-    html, body {
+    /* Reset globale per rimuovere margini e padding di default */
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
       width: 100%;
       height: 100%;
+      font-family: Arial, sans-serif;
     }
-    /* Imposta l'immagine come background dell'intera pagina */
+    /* Sfondo dell'intera pagina */
     body {
       background: url('https://leganerd.com/wp-content/uploads/2022/05/storie_di_immaginaria_realta_sole_eclisse_artwork_fantasy.jpg') no-repeat center center fixed;
       background-size: cover;
-      /* La proprietà fixed permette all'immagine di rimanere fissa mentre scrolli, se necessario */
+      color: white;
     }
-    /* Header con sfondo semi-trasparente per migliorare la leggibilità */
+    /* Header */
     header {
       background-color: rgba(0, 0, 0, 0.5);
       padding: 20px;
       text-align: center;
     }
     header .top-title {
-      margin: 0;
       font-size: 2em;
-      color: #FFD700; /* EclipseXbert in giallo */
+      color: #FFD700; /* Giallo */
     }
     header .welcome {
-      margin: 0;
       font-size: 1.5em;
-      color: #FFFFFF; /* Testo in bianco */
+      color: #FFFFFF;
     }
-    /* Main con sfondo semi-trasparente per evidenziare il contenuto */
+    /* Main: nessun margine per evitare spazi bianchi */
     main {
       background-color: rgba(0, 0, 0, 0.5);
-      margin: 20px;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -50,7 +51,7 @@
       margin: 10px 0;
     }
     main a {
-      color: #FFD700; /* Link in giallo */
+      color: #FFD700;
       text-decoration: none;
       font-weight: bold;
       font-size: 1.2em;
@@ -58,20 +59,18 @@
     main a:hover {
       text-decoration: underline;
     }
-    /* Footer con sfondo semi-trasparente */
+    /* Footer */
     footer {
       background-color: rgba(0, 0, 0, 0.5);
       text-align: center;
       padding: 10px;
       color: #AAAAAA;
       font-size: 14px;
-      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <header>
-    <!-- Testo diviso in due righe -->
     <h1 class="top-title">EclipseXbert</h1>
     <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
   </header>
