@@ -94,10 +94,10 @@
     <div class="container">
       <h1 class="top-title">EclipseXbert</h1>
       <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
-      <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
+      <a class="button" href="www.youtube.com/watch?v=VejTk-Lor8I " target="_blank">
         Visita il canale YouTube
       </a>
-      <a class="button" href="https://www.youtube.com/watch?v=VejTk-Lor8I" target="_blank">
+      <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
         Guarda il video speciale
       </a>
       <a class="button" href="www.youtube.com/watch?v=uLHqpjW3aDs" target="_blank">
