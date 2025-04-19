@@ -96,8 +96,16 @@
       <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
         Visita il canale YouTube
       </a>
+    </div>
+  </div>
+   <!-- Sezione Hero -->
+  <div class="hero">
+    <div class="container">
+      <h1 class="top-title">EclipseXbert</h1>
+      <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
       <a class="button" href="https://www.youtube.com/watch?v=uLHqpjW3aDs" target="_blank">
         Visita il Sito
+      </a>
     </div>
   </div>
   
