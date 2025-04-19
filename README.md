@@ -5,83 +5,105 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Benvenuto Sul Sito Di EclipseXbert</title>
   <style>
-    /* Resetta margini e padding, imposta larghezza e altezza */
-    html, body {
+    /* Reset globale */
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
       width: 100%;
       height: 100%;
+      font-family: Arial, sans-serif;
+      color: white;
     }
-    /* Imposta l'immagine come background dell'intera pagina */
+    /* Background con immagine e overlay */
     body {
       background: url('https://leganerd.com/wp-content/uploads/2022/05/storie_di_immaginaria_realta_sole_eclisse_artwork_fantasy.jpg') no-repeat center center fixed;
       background-size: cover;
-      /* La proprietà fixed permette all'immagine di rimanere fissa mentre scrolli, se necessario */
+      position: relative;
     }
-    /* Header con sfondo semi-trasparente per migliorare la leggibilità */
-    header {
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 20px;
+    /* Overlay scuro per migliorare la leggibilità */
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    /* Sezione hero a schermo intero, centrata con Flexbox */
+    .hero {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       text-align: center;
+      z-index: 2;
     }
-    header .top-title {
-      margin: 0;
-      font-size: 2em;
-      color: #FFD700; /* EclipseXbert in giallo */
+    /* Contenitore centrale */
+    .container {
+      padding: 20px;
     }
-    header .welcome {
-      margin: 0;
+    /* Titolo principale */
+    .top-title {
+      font-size: 4em;
+      margin-bottom: 0.3em;
+      color: #FFD700; /* Giallo oro */
+    }
+    /* Sottotitolo */
+    .welcome {
       font-size: 1.5em;
-      color: #FFFFFF; /* Testo in bianco */
+      margin-bottom: 1em;
     }
-    /* Main con sfondo semi-trasparente per evidenziare il contenuto */
-    main {
-      background-color: rgba(0, 0, 0, 0.5);
-      margin: 20px;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-      text-align: center;
-    }
-    main h2 {
-      margin: 10px 0;
-    }
-    main p {
-      margin: 10px 0;
-    }
-    main a {
-      color: #FFD700; /* Link in giallo */
-      text-decoration: none;
-      font-weight: bold;
+    /* Bottone per il canale YouTube */
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #FFD700;
+      color: black;
       font-size: 1.2em;
+      text-decoration: none;
+      border-radius: 5px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
     }
-    main a:hover {
-      text-decoration: underline;
+    .button:hover {
+      transform: scale(1.05);
     }
-    /* Footer con sfondo semi-trasparente */
+    /* Footer fissato in basso */
     footer {
-      background-color: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
       text-align: center;
-      padding: 10px;
-      color: #AAAAAA;
-      font-size: 14px;
-      margin-top: 20px;
+      padding: 10px 0;
+      font-size: 0.9em;
+      z-index: 2;
     }
   </style>
 </head>
 <body>
-  <header>
-    <!-- Testo diviso in due righe -->
-    <h1 class="top-title">EclipseXbert</h1>
-    <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
-  </header>
-  <main>
-    <h2>Clicca il link che troverai sotto e ovviamente seguimi!</h2>
-    <p>Clicca qua sotto:</p>
-    <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">Visita il canale YouTube</a>
-  </main>
+  <!-- Overlay per rendere più leggibile il testo -->
+  <div class="overlay"></div>
+  
+  <!-- Sezione Hero -->
+  <div class="hero">
+    <div class="container">
+      <h1 class="top-title">EclipseXbert</h1>
+      <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
+      <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
+        Visita il canale YouTube
+      </a>
+    </div>
+  </div>
+  
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 My Website. All rights reserved.</p>
+    <p>&copy; 2025 EclipseXbert. All rights reserved.</p>
   </footer>
 </body>
 </html>
