@@ -20,7 +20,7 @@
     }
     /* Header con sfondo semi-trasparente per migliorare la leggibilità */
     header {
-      background-color: rgba(51, 51, 51, 0.8);
+      background-color: rgba(0, 0, 0, 0.5);
       padding: 20px;
       text-align: center;
     }
@@ -40,7 +40,7 @@
       margin: 20px;
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
       text-align: center;
     }
     main h2 {
