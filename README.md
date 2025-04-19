@@ -1,69 +1,87 @@
 
-<html lang="it">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Benvenuto Sul Sito Di EclipseXbert</title>
   <style>
-    /* Reset e impostazioni globali */
+    /* Resetta margini e padding, imposta larghezza e altezza */
     html, body {
       margin: 0;
       padding: 0;
       width: 100%;
       height: 100%;
-      font-family: Arial, sans-serif;
     }
-    /* Imposta lo sfondo della pagina con l'immagine presa dal link */
+    /* Imposta l'immagine come background dell'intera pagina */
     body {
-      background: url('https://it.pinterest.com/pin/1829656094347005/') no-repeat center center fixed;
+      background: url('https://leganerd.com/wp-content/uploads/2022/05/storie_di_immaginaria_realta_sole_eclisse_artwork_fantasy.jpg') no-repeat center center fixed;
       background-size: cover;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      /* La proprietà fixed permette all'immagine di rimanere fissa mentre scrolli, se necessario */
+    }
+    /* Header con sfondo semi-trasparente per migliorare la leggibilità */
+    header {
+      background-color: rgba(51, 51, 51, 0.8);
+      padding: 20px;
       text-align: center;
-      color: white;
     }
-    /* Contenitore centrale per il contenuto */
-    .container {
-      background-color: rgba(0, 0, 0, 0.5);  /* Sfondo scuro semi-trasparente per migliorare la leggibilità */
-      padding: 40px;
-      border-radius: 10px;
-    }
-    /* Logo principale */
-    .logo {
+    header .top-title {
       margin: 0;
-      font-size: 4em;
-      font-weight: bold;
-      color: #FFD700;
+      font-size: 2em;
+      color: #FFD700; /* EclipseXbert in giallo */
     }
-    /* Sottotitolo */
-    .subtitle {
-      font-size: 1.8em;
-      margin: 20px 0;
+    header .welcome {
+      margin: 0;
+      font-size: 1.5em;
+      color: #FFFFFF; /* Testo in bianco */
     }
-    /* Bottone stilizzato */
-    .button {
-      display: inline-block;
-      padding: 15px 30px;
-      font-size: 1.2em;
-      border: 2px solid #FFD700;
-      border-radius: 5px;
-      background: transparent;
-      color: #FFD700;
+    /* Main con sfondo semi-trasparente per evidenziare il contenuto */
+    main {
+      background-color: rgba(30, 30, 30, 0.8);
+      margin: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    main h2 {
+      margin: 10px 0;
+    }
+    main p {
+      margin: 10px 0;
+    }
+    main a {
+      color: #FFD700; /* Link in giallo */
       text-decoration: none;
-      transition: background 0.3s, transform 0.3s;
+      font-weight: bold;
+      font-size: 1.2em;
     }
-    .button:hover {
-      background: rgba(0,0,0,0.3);
-      transform: scale(1.05);
+    main a:hover {
+      text-decoration: underline;
+    }
+    /* Footer con sfondo semi-trasparente */
+    footer {
+      background-color: rgba(51, 51, 51, 0.8);
+      text-align: center;
+      padding: 10px;
+      color: #AAAAAA;
+      font-size: 14px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1 class="logo">EclipseXbert</h1>
-    <p class="subtitle">Benvenuto sul sito di EclipseXbert</p>
-    <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">Visita il canale YouTube</a>
-  </div>
+  <header>
+    <!-- Testo diviso in due righe -->
+    <h1 class="top-title">EclipseXbert</h1>
+    <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
+  </header>
+  <main>
+    <h2>Clicca il link che troverai sotto e ovviamente seguimi!</h2>
+    <p>Clicca qua sotto:</p>
+    <a href="https://www.youtube.com/@EclipseXbert" target="_blank">EclipseXbert channels</a>
+  </main>
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
 </body>
 </html>
