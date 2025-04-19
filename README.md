@@ -36,7 +36,7 @@
     }
     /* Main con sfondo semi-trasparente per evidenziare il contenuto */
     main {
-      background-color: rgba(30, 30, 30, 0.8);
+      background-color: rgba(0, 0, 0, 0.5);
       margin: 20px;
       padding: 20px;
       border-radius: 8px;
@@ -60,7 +60,7 @@
     }
     /* Footer con sfondo semi-trasparente */
     footer {
-      background-color: rgba(51, 51, 51, 0.8);
+      background-color: rgba(0, 0, 0, 0.5);
       text-align: center;
       padding: 10px;
       color: #AAAAAA;
