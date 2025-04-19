@@ -76,9 +76,16 @@
     <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
   </header>
   <main>
-    <h2>Clicca il link che troverai sotto e ovviamente seguimi!</h2>
-    <p>Clicca qua sotto:</p>
-    <a href="https://www.youtube.com/@EclipseXbert" target="_blank">EclipseXbert channels</a>
+    <!-- Sezione hero: immagine senza testo sovrapposto -->
+    <section class="hero">
+      <img src="https://i.pinimg.com/736x/8d/95/90/8d9590f65abf977048a0b6feee69764d.jpg" alt="Immagine di copertina">
+    </section>
+    <!-- Sezione contenuto: testi e link centrati -->
+    <section class="content">
+      <h2>Clicca il link che troverai sotto e ovviamente seguimi!</h2>
+      <p>Clicca qua sotto:</p>
+      <a href="https://www.youtube.com/@EclipseXbert" target="_blank">EclipseXbert channels</a>
+    </section>
   </main>
   <footer>
     <p>&copy; 2025 My Website. All rights reserved.</p>
