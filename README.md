@@ -75,14 +75,12 @@
     }
     /* Footer fissato in basso */
     footer {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      background: rgba(0, 0, 0, 0.5);
+      background-color: #333333;
       text-align: center;
-      padding: 10px 0;
-      font-size: 0.9em;
-      z-index: 2;
+      padding: 10px;
+      color: #AAAAAA;
+      font-size: 14px;
+      margin-top: 20px;
     }
   </style>
 </head>
