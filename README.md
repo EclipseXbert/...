@@ -13,9 +13,9 @@
       height: 100%;
       font-family: Arial, sans-serif;
     }
-    /* Background gradiente per l'intera pagina */
+    /* Imposta lo sfondo della pagina con l'immagine presa dal link */
     body {
-      background: linear-gradient(to bottom, #B8860B, #FF8C00, #FF0000, #000000);
+      background: url('https://it.pinterest.com/pin/1829656094347005/') no-repeat center center fixed;
       background-size: cover;
       display: flex;
       align-items: center;
@@ -23,22 +23,15 @@
       text-align: center;
       color: white;
     }
-    /* Contenitore centrale */
+    /* Contenitore centrale per il contenuto */
     .container {
-      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5);  /* Sfondo scuro semi-trasparente per migliorare la leggibilità */
+      padding: 40px;
+      border-radius: 10px;
     }
-    /* Immagine centrale con fusione */
-    .center-image {
-      display: block;
-      margin: 0 auto 20px;
-      width: 236px;
-      max-width: 100%;
-      /* La modalità di fusione fa in modo che l'immagine "prenda" i colori dello sfondo */
-      mix-blend-mode: multiply;
-    }
-    /* Logo in grande */
+    /* Logo principale */
     .logo {
-      margin: 10px 0;
+      margin: 0;
       font-size: 4em;
       font-weight: bold;
       color: #FFD700;
@@ -46,7 +39,7 @@
     /* Sottotitolo */
     .subtitle {
       font-size: 1.8em;
-      margin-bottom: 30px;
+      margin: 20px 0;
     }
     /* Bottone stilizzato */
     .button {
@@ -68,14 +61,8 @@
 </head>
 <body>
   <div class="container">
-    <!-- Immagine centrale: prova a cambiare mix-blend-mode se necessario (es. overlay) -->
-    <img class="center-image" src="https://i.pinimg.com/236x/5c/f1/d4/5cf1d45119534c59ee373fa6d0360032.jpg" alt="Immagine centrale">
-    
-    <!-- Logo e sottotitolo -->
     <h1 class="logo">EclipseXbert</h1>
     <p class="subtitle">Benvenuto sul sito di EclipseXbert</p>
-    
-    <!-- Bottone -->
     <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">Visita il canale YouTube</a>
   </div>
 </body>
