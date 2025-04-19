@@ -78,7 +78,7 @@
   <main>
     <h2>Clicca il link che troverai sotto e ovviamente seguimi!</h2>
     <p>Clicca qua sotto:</p>
-    <a href="https://www.youtube.com/@EclipseXbert" target="_blank">EclipseXbert channels</a>
+    <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">Visita il canale YouTube</a>
   </main>
   <footer>
     <p>&copy; 2025 My Website. All rights reserved.</p>
