@@ -97,11 +97,11 @@
       <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
         Visita il canale YouTube
       </a>
-      <a class="button" href="https://www.youtube.com/watch?v=uLHqpjW3aDs" target="_blank">
+      <a class="button" href="https://www.youtube.com/watch?v=VejTk-Lor8I" target="_blank">
         Guarda il video speciale
       </a>
-      <a class="button" href="https://www.youtube.com/watch?v=VejTk-Lor8I" target="_blank">
-        Scopri il nuovo video
+      <a class="button" href="www.youtube.com/watch?v=uLHqpjW3aDs" target="_blank">
+        Guarda Questo Video
       </a>
     </div>
   </div> 
