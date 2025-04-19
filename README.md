@@ -17,6 +17,8 @@
       background-color: #333333; /* Grigio scuro */
       padding: 20px;
       text-align: center;
+      position: relative;
+      z-index: 2;
     }
     header .top-title {
       margin: 0;
@@ -28,11 +30,12 @@
       font-size: 1.5em;
       color: #FFFFFF; /* Testo bianco */
     }
-    /* Sezione hero: solo immagine */
+    /* Sezione hero: immagine che occupa l'intera viewport */
     section.hero {
       width: 100%;
-      height: 80vh; /* L'immagine occupa l'80% della viewport */
+      height: 100vh; /* L'immagine occupa il 100% della viewport */
       overflow: hidden;
+      position: relative;
     }
     section.hero img {
       width: 100%;
@@ -47,6 +50,8 @@
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       margin: 20px;
+      position: relative;
+      z-index: 2;
     }
     section.content h2 {
       margin: 10px 0;
@@ -71,6 +76,8 @@
       color: #AAAAAA;
       font-size: 14px;
       margin-top: 20px;
+      position: relative;
+      z-index: 2;
     }
   </style>
 </head>
@@ -82,7 +89,7 @@
     <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
   </header>
   <main>
-    <!-- Sezione hero: immagine senza testo sovrapposto -->
+    <!-- Sezione hero: immagine che riempie l'intera viewport -->
     <section class="hero">
       <img src="https://leganerd.com/wp-content/uploads/2022/05/storie_di_immaginaria_realta_sole_eclisse_artwork_fantasy.jpg" alt="Immagine di copertina">
     </section>
