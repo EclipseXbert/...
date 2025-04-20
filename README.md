@@ -18,7 +18,7 @@
     }
     /* Background con immagine */
     body {
-      background-image: url('https://www.xtrafondos.com/wallpapers/eclipse-fantasia-morado-12336.jpg');
+      background-image: url('https://www.xtrafondos.com/wallpapers/eclipse-5150.jpg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
