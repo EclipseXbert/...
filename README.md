@@ -109,7 +109,7 @@
   <div class="hero">
     <div class="container">
       <a class="button" href="https://youtu.be/VejTk-Lor8I?si=5lUsO5C_RrkizX3j" target="_blank">
-        Guarda il video speciale
+        ZakShen - Memories (Euphoric Hardstyle)
       </a>
       <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
         Visita il canale YouTube
