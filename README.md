@@ -60,6 +60,7 @@
     }
     /* Sottotitolo */
     .welcome {
+      top: -18px;
       font-size: 1.5em;
       margin-bottom: 1em;
     }
