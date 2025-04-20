@@ -51,7 +51,7 @@
     /* Titolo principale centrato più in alto */
     .top-title {
       position: absolute;
-      top: 10px; /* Più vicino alla parte superiore della pagina */
+      top: -24px; /* Più vicino alla parte superiore della pagina */
       left: 50%;
       transform: translateX(-50%);
       font-size: 4em;
@@ -61,7 +61,7 @@
     }
     /* Sottotitolo */
     .welcome {
-      margin-top: 80px; /* Aggiungi spazio tra il titolo e il paragrafo */
+      margin-top: 50px; /* Aggiungi spazio tra il titolo e il paragrafo */
       font-size: 1.5em;
     }
     /* Bottone per i link */
