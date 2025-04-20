@@ -19,7 +19,7 @@
     }
     /* Background con immagine e overlay */
     body {
-      background: url('https://leganerd.com/wp-content/uploads/2022/05/storie_di_immaginaria_realta_sole_eclisse_artwork_fantasy.jpg') no-repeat center center fixed;
+      background: url('https://i.pinimg.com/736x/38/6f/2a/386f2ab1e1a3179afda405c301136beb.jpg') no-repeat center center fixed;
       background-size: cover;
       position: relative;
     }
