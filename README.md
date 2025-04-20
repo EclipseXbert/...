@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -32,19 +33,59 @@
       background-color: rgba(0, 0, 0, 0.6);
       z-index: 1;
     }
-    /* Stile per il link */
-    .zakshen-link {
-      position: absolute;
-      top: 10px; /* Spostato in alto */
-      left: 10px; /* Spostato a sinistra */
-      font-size: 1.2em;
-      color: #FFD700; /* Giallo oro */
-      text-decoration: none;
+    /* Sezione hero a schermo intero */
+    .hero {
+      position: relative;
+      height: calc(100vh - 100px); /* Ridotta altezza per lasciare spazio al titolo */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
       z-index: 2;
+      flex-direction: column; /* Imposta il layout verticale */
     }
-    .zakshen-link:hover {
-      text-decoration: underline; /* Aggiunge un effetto hover */
+    /* Contenitore centrale */
+    .container {
+      padding: 20px;
     }
+    /* Titolo principale centrato più in alto */
+    .top-title {
+      position: absolute;
+      top: -24px; /* Più vicino alla parte superiore della pagina */
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 4em;
+      color: #6A5ACD; /* Viola scuro chiaro */
+      margin: 0; /* Rimuove eventuale spazio extra */
+      text-align: center;
+    }
+    /* Sottotitolo */
+    .welcome {
+      position: absolute;
+      top: 50px; /* Aggiungi spazio tra il titolo e il paragrafo */
+      left: 50%;
+      transform: translateX(-50%);
+      color: #6A5ACD;
+      margin: 0;
+      font-size: 1.5em;
+      text-align: center;
+    }
+    /* Bottone per i link */
+    .button {
+      display: inline-block;
+      padding: 15px 30px;
+      background: #6A5ACD;
+      color: black;
+      font-size: 1.2em;
+      text-decoration: none;
+      border-radius: 5px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      margin: 10px 0; /* Spazio tra i bottoni */
+      transition: transform 0.3s ease;
+    }
+    .button:hover {
+      transform: scale(1.05);
+      }
     /* Footer fissato in basso */
     footer {
       background: rgba(0, 0, 0, 0.5);
@@ -60,14 +101,16 @@
   <!-- Overlay per rendere più leggibile il testo -->
   <div class="overlay"></div>
   
-  <!-- Link spostato in alto a sinistra -->
-  <a class="zakshen-link" href="https://youtu.be/VejTk-Lor8I?si=5lUsO5C_RrkizX3j" target="_blank">
-    ZakShen - Memories (Euphoric Hardstyle)
-  </a>
+  <!-- Titolo Principale in alto centrato -->
+  <h1 class="top-title">EclipseXbert</h1>
+  <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
   
   <!-- Sezione Hero -->
   <div class="hero">
     <div class="container">
+      <a class="button" href="https://youtu.be/VejTk-Lor8I?si=5lUsO5C_RrkizX3j" target="_blank">
+        ZakShen - Memories (Euphoric Hardstyle)
+      </a>
       <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
         Visita il canale YouTube
       </a>
@@ -76,10 +119,9 @@
       </a>
     </div>
   </div> 
-  
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 EclipseXbert. All rights reserved.</p>
   </footer>
-</body>
+  </body>
 </html>
