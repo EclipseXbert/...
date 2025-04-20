@@ -36,7 +36,7 @@
     /* Sezione hero a schermo intero */
     .hero {
       position: relative;
-      height: calc(100vh - 100px); /* Ridotta altezza per lasciare spazio al titolo */
+      height: calc(90vh - 90px); /* Ridotta altezza per lasciare spazio al titolo */
       display: flex;
       align-items: center;
       justify-content: center;
