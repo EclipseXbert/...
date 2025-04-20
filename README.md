@@ -42,6 +42,7 @@
       justify-content: center;
       text-align: center;
       z-index: 2;
+      flex-direction: column; /* Imposta il layout verticale */
     }
     /* Contenitore centrale */
     .container {
@@ -50,19 +51,18 @@
     /* Titolo principale centrato più in alto */
     .top-title {
       position: absolute;
-      top: -24px; /* Più vicino alla parte superiore della pagina */
+      top: 10px; /* Più vicino alla parte superiore della pagina */
       left: 50%;
       transform: translateX(-50%);
       font-size: 4em;
       color: #6A5ACD; /* Viola scuro chiaro */
-      margin: 0; /* Rimuove eventuale spazio extra che crea la riga bianca */
+      margin: 0; /* Rimuove eventuale spazio extra */
       text-align: center;
     }
     /* Sottotitolo */
     .welcome {
-      top: -18px;
+      margin-top: 80px; /* Aggiungi spazio tra il titolo e il paragrafo */
       font-size: 1.5em;
-      margin-bottom: 1em;
     }
     /* Bottone per i link */
     .button {
@@ -97,11 +97,11 @@
   
   <!-- Titolo Principale in alto centrato -->
   <h1 class="top-title">EclipseXbert</h1>
+  <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
   
   <!-- Sezione Hero -->
   <div class="hero">
     <div class="container">
-      <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
       <a class="button" href="https://youtu.be/VejTk-Lor8I?si=5lUsO5C_RrkizX3j" target="_blank">
         Guarda il video speciale
       </a>
