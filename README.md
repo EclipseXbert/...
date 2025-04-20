@@ -85,6 +85,15 @@
     }
     .button:hover {
       transform: scale(1.05);
+      }
+    /* Footer fissato in basso */
+    footer {
+      background: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      padding: 10px;
+      color: #AAAAAA;
+      font-size: 14px;
+      margin-top: 20px;
     }
   </style>
 </head>
@@ -110,5 +119,9 @@
       </a>
     </div>
   </div> 
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 EclipseXbert. All rights reserved.</p>
+  </footer>
   </body>
 </html>
