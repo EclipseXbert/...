@@ -16,9 +16,9 @@
       font-family: Arial, sans-serif;
       color: white;
     }
-    /* Background con immagine */
+    /* Background con immagine ridimensionata */
     body {
-      background-image: url('https://www.xtrafondos.com/wallpapers/eclipse-5150.jpg');
+      background-image: url('images/eclipse.jpg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
