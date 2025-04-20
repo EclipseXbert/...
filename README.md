@@ -120,6 +120,9 @@
       <a class="button" href="https://youtu.be/pgFGKGhLXfI?si=9lhJ-SZX-SsMwmG2" target="_blank">
         MilleniumKid & JBS - Vielleicht Vielleicht
       </a>
+      <a class="button" href="https://youtu.be/0ae8rS7-QoU?si=TqICcVwOI7xDti-n" target="_blank">
+        Lucio Corsi - Volevo essere un duro
+      </a>
     </div>
   </div> 
   <!-- Footer -->
