@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -16,27 +17,41 @@
       font-family: Arial, sans-serif;
       color: white;
     }
-    /* Background con immagine ridimensionata */
+    /* Background con immagine e overlay */
     body {
-      background-image: url('images/eclipse.jpg');
-      background-position: center;
-      background-repeat: no-repeat;
+      background: url('https://leganerd.com/wp-content/uploads/2022/05/storie_di_immaginaria_realta_sole_eclisse_artwork_fantasy.jpg') no-repeat center center fixed;
       background-size: cover;
-      background-attachment: fixed;
+      position: relative;
     }
-    /* Sezione hero a schermo intero */
+    /* Overlay scuro per migliorare la leggibilità */
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    /* Sezione hero a schermo intero, centrata con Flexbox */
     .hero {
+      position: relative;
       height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
+      z-index: 2;
+    }
+    /* Contenitore centrale */
+    .container {
+      padding: 20px;
     }
     /* Titolo principale */
     .top-title {
       font-size: 4em;
-      margin-bottom: 0.5em;
-      color: #FFD700;
+      margin-bottom: 0.3em;
+      color: #FFD700; /* Giallo oro */
     }
     /* Sottotitolo */
     .welcome {
@@ -47,7 +62,7 @@
     .button {
       display: inline-block;
       padding: 15px 30px;
-      background-color: #FFD700;
+      background: #FFD700;
       color: black;
       font-size: 1.2em;
       text-decoration: none;
@@ -60,17 +75,22 @@
     }
     /* Footer fissato in basso */
     footer {
+      background: rgba(0, 0, 0, 0.5);
       text-align: center;
       padding: 10px;
       color: #AAAAAA;
       font-size: 14px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
+  <!-- Overlay per rendere più leggibile il testo -->
+  <div class="overlay"></div>
+  
   <!-- Sezione Hero -->
   <div class="hero">
-    <div>
+    <div class="container">
       <h1 class="top-title">EclipseXbert</h1>
       <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
       <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
