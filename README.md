@@ -64,6 +64,7 @@
       position: absolute;
       top: 50px; /* Aggiungi spazio tra il titolo e il paragrafo */
       left: 50%;
+      transform: translateX(-50%);
       color: #6A5ACD;
       margin: 0;
       font-size: 1.5em;
