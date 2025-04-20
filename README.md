@@ -19,9 +19,12 @@
     }
     /* Background con immagine e overlay */
     body {
-      background: url('https://www.xtrafondos.com/wallpapers/eclipse-fantasia-morado-12336.jpg') no-repeat center center fixed;
-      background-size: cover;
-      position: relative;
+  background-image: url('https://www.xtrafondos.com/wallpapers/eclipse-fantasia-morado-12336.jpg');
+  background-size: cover; /* Rende l'immagine adattata a tutto lo sfondo */
+  background-repeat: no-repeat; /* Impedisce la ripetizione dell'immagine */
+  background-attachment: fixed; /* Fa sì che lo sfondo resti fermo mentre scrolli */
+}
+
     }
     /* Overlay scuro per migliorare la leggibilità */
     .overlay {
