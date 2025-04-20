@@ -19,7 +19,7 @@
     }
     /* Background con immagine e overlay */
     body {
-      background: url('https://leganerd.com/wp-content/uploads/2022/05/storie_di_immaginaria_realta_sole_eclisse_artwork_fantasy.jpg') no-repeat center center fixed;
+      background: url('https://www.xtrafondos.com/wallpapers/eclipse-fantasia-morado-12336.jpg') no-repeat center center fixed;
       background-size: cover;
       position: relative;
     }
