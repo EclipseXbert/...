@@ -58,7 +58,7 @@
       font-size: 1.5em;
       margin-bottom: 1em;
     }
-    /* Bottone per il canale YouTube */
+    /* Bottone per i link */
     .button {
       display: inline-block;
       padding: 15px 30px;
@@ -68,6 +68,7 @@
       text-decoration: none;
       border-radius: 5px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      margin: 10px 0; /* Spazio tra i bottoni */
       transition: transform 0.3s ease;
     }
     .button:hover {
@@ -96,9 +97,14 @@
       <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
         Visita il canale YouTube
       </a>
+      <a class="button" href="https://www.youtube.com/watch?v=uLHqpjW3aDs" target="_blank">
+        Guarda il video speciale
+      </a>
+      <a class="button" href="https://www.youtube.com/watch?v=VejTk-Lor8I" target="_blank">
+        Scopri il nuovo video
+      </a>
     </div>
-  </div>
-  
+  </div> 
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 EclipseXbert. All rights reserved.</p>
