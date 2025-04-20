@@ -61,8 +61,12 @@
     }
     /* Sottotitolo */
     .welcome {
-      margin-top: 50px; /* Aggiungi spazio tra il titolo e il paragrafo */
+      position: absolute;
+      top: 50px; /* Aggiungi spazio tra il titolo e il paragrafo */
+      left: 50%;
+      color: #6A5ACD;
       font-size: 1.5em;
+      text-align: center;
     }
     /* Bottone per i link */
     .button {
