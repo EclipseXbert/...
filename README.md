@@ -50,7 +50,7 @@
     /* Titolo principale centrato più in alto */
     .top-title {
       position: absolute;
-      top: -23px; /* Più vicino alla parte superiore della pagina */
+      top: -24px; /* Più vicino alla parte superiore della pagina */
       left: 50%;
       transform: translateX(-50%);
       font-size: 4em;
