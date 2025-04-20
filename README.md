@@ -36,11 +36,11 @@
     /* Sezione hero a schermo intero */
     .hero {
       position: relative;
-      height: calc(80vh - 80px); /* Ridotta altezza per lasciare spazio al titolo */
+      height: calc(84vh - 84px); /* Ridotta altezza per lasciare spazio al titolo */
       display: flex;
-      align-items: left;
-      justify-content: left;
-      text-align: left;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
       z-index: 2;
       flex-direction: column; /* Imposta il layout verticale */
     }
