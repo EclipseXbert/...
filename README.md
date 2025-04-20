@@ -51,7 +51,7 @@
     .top-title {
       font-size: 4em;
       margin-bottom: 0.3em;
-      color: #FFD700; /* Giallo oro */
+      color: #6A5ACD; /* Giallo oro */
     }
     /* Sottotitolo */
     .welcome {
@@ -62,7 +62,7 @@
     .button {
       display: inline-block;
       padding: 15px 30px;
-      background: #FFD700;
+      background: #6A5ACD;
       color: black;
       font-size: 1.2em;
       text-decoration: none;
