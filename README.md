@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -19,12 +18,9 @@
     }
     /* Background con immagine e overlay */
     body {
-  background-image: url('https://www.xtrafondos.com/wallpapers/eclipse-fantasia-morado-12336.jpg');
-  background-size: cover; /* Rende l'immagine adattata a tutto lo sfondo */
-  background-repeat: no-repeat; /* Impedisce la ripetizione dell'immagine */
-  background-attachment: fixed; /* Fa sì che lo sfondo resti fermo mentre scrolli */
-}
-
+      background: url('https://www.xtrafondos.com/wallpapers/eclipse-fantasia-morado-12336.jpg') no-repeat center center fixed;
+      background-size: cover;
+      position: relative;
     }
     /* Overlay scuro per migliorare la leggibilità */
     .overlay {
@@ -61,7 +57,7 @@
       font-size: 1.5em;
       margin-bottom: 1em;
     }
-    /* Bottone per i link */
+    /* Bottone per il canale YouTube */
     .button {
       display: inline-block;
       padding: 15px 30px;
@@ -71,7 +67,6 @@
       text-decoration: none;
       border-radius: 5px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-      margin: 10px 0; /* Spazio tra i bottoni */
       transition: transform 0.3s ease;
     }
     .button:hover {
@@ -97,17 +92,12 @@
     <div class="container">
       <h1 class="top-title">EclipseXbert</h1>
       <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
-      <a class="button" href="https://www.youtube.com/watch?v=VejTk-Lor8I" target="_blank">
-        Guarda il video speciale
-      </a>
       <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
         Visita il canale YouTube
       </a>
-      <a class="button" href="https://www.youtube.com/watch?v=uLHqpjW3aDs" target="_blank">
-        Guarda Questo Video
-      </a>
     </div>
-  </div> 
+  </div>
+  
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 EclipseXbert. All rights reserved.</p>
