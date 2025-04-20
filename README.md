@@ -65,7 +65,8 @@
       top: 50px; /* Aggiungi spazio tra il titolo e il paragrafo */
       left: 50%;
       color: #6A5ACD;
-      font-size: 1.5em;
+      margin: 0;
+      font-size: 4em;
       text-align: center;
     }
     /* Bottone per i link */
