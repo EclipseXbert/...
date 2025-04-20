@@ -47,15 +47,15 @@
     .container {
       padding: 20px;
     }
-    /* Titolo principale centrato in alto */
+    /* Titolo principale centrato più in alto */
     .top-title {
       position: absolute;
-      top: 20px; /* Posiziona il titolo in alto */
+      top: 10px; /* Più vicino alla parte superiore della pagina */
       left: 50%;
       transform: translateX(-50%);
       font-size: 4em;
       color: #6A5ACD; /* Viola scuro chiaro */
-      margin: 0;
+      margin: 0; /* Rimuove eventuale spazio extra che crea la riga bianca */
       text-align: center;
     }
     /* Sottotitolo */
