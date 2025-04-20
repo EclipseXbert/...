@@ -94,14 +94,14 @@
     <div class="container">
       <h1 class="top-title">EclipseXbert</h1>
       <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
-      <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
+      <a class="button" href="https://youtu.be/VejTk-Lor8I?si=5lUsO5C_RrkizX3j" target="_blank">
         Guarda il video speciale
       </a>
-      <a class="button" href="https://youtu.be/VejTk-Lor8I?si=5lUsO5C_RrkizX3j" target="_blank">
+      <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
         Visita il canale YouTube
       </a>
       <a class="button" href="https://youtu.be/uLHqpjW3aDs?si=frFD2qkqOQTEqLQU" target="_blank">
-        Guarda Il video
+        Guarda Il video English
       </a>
     </div>
   </div> 
