@@ -19,7 +19,7 @@
     }
     /* Background con immagine e overlay */
     body {
-      background: url('https://i.pinimg.com/736x/38/6f/2a/386f2ab1e1a3179afda405c301136beb.jpg') no-repeat center center fixed;
+      background: url('https://i.pinimg.com/736x/e5/41/d3/e541d318a855faae36f7cee2e57b128f.jpg') no-repeat center center fixed;
       background-size: cover;
       position: relative;
     }
