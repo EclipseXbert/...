@@ -16,41 +16,27 @@
       font-family: Arial, sans-serif;
       color: white;
     }
-    /* Background con immagine e overlay */
+    /* Background con immagine */
     body {
-      background: url('https://www.xtrafondos.com/wallpapers/eclipse-fantasia-morado-12336.jpg') no-repeat center center fixed;
+      background-image: url('https://www.xtrafondos.com/wallpapers/eclipse-fantasia-morado-12336.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
       background-size: cover;
-      position: relative;
+      background-attachment: fixed;
     }
-    /* Overlay scuro per migliorare la leggibilità */
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.6);
-      z-index: 1;
-    }
-    /* Sezione hero a schermo intero, centrata con Flexbox */
+    /* Sezione hero a schermo intero */
     .hero {
-      position: relative;
       height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
       text-align: center;
-      z-index: 2;
-    }
-    /* Contenitore centrale */
-    .container {
-      padding: 20px;
     }
     /* Titolo principale */
     .top-title {
       font-size: 4em;
-      margin-bottom: 0.3em;
-      color: #FFD700; /* Giallo oro */
+      margin-bottom: 0.5em;
+      color: #FFD700;
     }
     /* Sottotitolo */
     .welcome {
@@ -61,7 +47,7 @@
     .button {
       display: inline-block;
       padding: 15px 30px;
-      background: #FFD700;
+      background-color: #FFD700;
       color: black;
       font-size: 1.2em;
       text-decoration: none;
@@ -74,22 +60,17 @@
     }
     /* Footer fissato in basso */
     footer {
-      background: rgba(0, 0, 0, 0.5);
       text-align: center;
       padding: 10px;
       color: #AAAAAA;
       font-size: 14px;
-      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-  <!-- Overlay per rendere più leggibile il testo -->
-  <div class="overlay"></div>
-  
   <!-- Sezione Hero -->
   <div class="hero">
-    <div class="container">
+    <div>
       <h1 class="top-title">EclipseXbert</h1>
       <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
       <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
