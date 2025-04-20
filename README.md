@@ -66,7 +66,7 @@
       left: 50%;
       color: #6A5ACD;
       margin: 0;
-      font-size: 4em;
+      font-size: 1.5em;
       text-align: center;
     }
     /* Bottone per i link */
