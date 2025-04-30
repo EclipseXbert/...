@@ -1,5 +1,6 @@
 <html lang="en">
 <head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Benvenuto Sul Sito Di EclipseXbert</title>
@@ -22,6 +23,7 @@
       background-size: cover;
       position: relative;
     }
+    /* Overlay scuro per migliorare la leggibilità */
     .overlay {
       position: absolute;
       top: 0;
@@ -31,61 +33,81 @@
       background-color: rgba(0, 0, 0, 0.6);
       z-index: 1;
     }
-    /* Sezione hero */
+    /* Sezione hero a schermo intero */
     .hero {
       position: relative;
+      height: calc(84vh - 84px); /* Ridotta altezza per lasciare spazio al titolo */
       display: flex;
-      flex-direction: column; /* Mette i link in verticale */
-      align-items: flex-start; /* Allinea i contenuti a sinistra */
-      padding: 50px; /* Spazio per separare dal bordo */
+      align-items: center;
+      justify-content: center;
+      text-align: center;
       z-index: 2;
+      flex-direction: column; /* Imposta il layout verticale */
     }
-    /* Titolo principale */
+    /* Contenitore centrale */
+    .container {
+      padding: 20px;
+    }
+    /* Titolo principale centrato più in alto */
     .top-title {
+      position: absolute;
+      top: -24px; /* Più vicino alla parte superiore della pagina */
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 4em;
+      color: #6A5ACD; /* Viola scuro chiaro */
+      margin: 0; /* Rimuove eventuale spazio extra */
       text-align: center;
-      font-size: 3em;
-      color: #6A5ACD;
-      margin-bottom: 10px;
     }
+    /* Sottotitolo */
     .welcome {
-      text-align: center;
-      font-size: 1.2em;
+      position: absolute;
+      top: 50px; /* Aggiungi spazio tra il titolo e il paragrafo */
+      left: 50%;
+      transform: translateX(-50%);
       color: #6A5ACD;
-      margin-bottom: 30px;
+      margin: 0;
+      font-size: 1.5em;
+      text-align: center;
     }
-    /* Stile dei link */
+    /* Bottone per i link */
     .button {
-      display: block; /* Ogni link occupa una nuova riga */
+      display: inline-block;
+      padding: 15px 30px;
       background: #6A5ACD;
       color: black;
-      padding: 10px 20px;
-      margin: 10px 0;
+      font-size: 1.2em;
       text-decoration: none;
       border-radius: 5px;
-      text-align: left; /* Allinea il testo del link a sinistra */
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      margin: 10px 0; /* Spazio tra i bottoni */
       transition: transform 0.3s ease;
     }
     .button:hover {
-      transform: translateX(5px); /* Movimento al passaggio del mouse */
-    }
+      transform: scale(1.05);
+      }
+    /* Footer fissato in basso */
     footer {
-      position: relative;
+      background: rgba(0, 0, 0, 0.5);
       text-align: center;
       padding: 10px;
-      font-size: 14px;
       color: #AAAAAA;
-      background: rgba(0, 0, 0, 0.5);
-      margin-top: 30px;
+      font-size: 14px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
+  <!-- Overlay per rendere più leggibile il testo -->
   <div class="overlay"></div>
-  <div class="container">
-    <h1 class="top-title">EclipseXbert</h1>
-    <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
-    <div class="hero">
+  
+  <!-- Titolo Principale in alto centrato -->
+  <h1 class="top-title">EclipseXbert</h1>
+  <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
+  
+  <!-- Sezione Hero -->
+  <div class="hero">
+    <div class="container">
       <a class="button" href="https://youtu.be/VejTk-Lor8I?si=5lUsO5C_RrkizX3j" target="_blank">
         ZakShen - Memories (Euphoric Hardstyle)
       </a>
@@ -108,9 +130,20 @@
         Show Me Love (with Tyla)
       </a>
     </div>
-  </div>
+  </div> 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 EclipseXbert. All rights reserved.</p>
   </footer>
-</body>
+  <!-- Script per l'animazione -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      gsap.from(".top-title", {
+        y: -100, // Scorre dall'alto
+        duration: 2, // Tempo dell'animazione
+        opacity: 0, // Inizia trasparente
+      });
+    });
+  </script>
+  </body>
 </html>
