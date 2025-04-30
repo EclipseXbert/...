@@ -63,4 +63,54 @@
       text-decoration: none;
       border-radius: 5px;
       text-align: left; /* Allinea il testo del link a sinistra */
-      box-shadow
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+    .button:hover {
+      transform: translateX(5px); /* Movimento al passaggio del mouse */
+    }
+    footer {
+      position: relative;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      color: #AAAAAA;
+      background: rgba(0, 0, 0, 0.5);
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <h1 class="top-title">EclipseXbert</h1>
+    <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
+    <div class="hero">
+      <a class="button" href="https://youtu.be/VejTk-Lor8I?si=5lUsO5C_RrkizX3j" target="_blank">
+        ZakShen - Memories (Euphoric Hardstyle)
+      </a>
+      <a class="button" href="https://www.youtube.com/@EclipseXbert" target="_blank">
+        Visita il canale YouTube
+      </a>
+      <a class="button" href="https://youtu.be/9tvYWg8rrjo?si=5RbLuCPIunlwHXX4" target="_blank">
+        Train - Hey Soul Sister
+      </a>
+      <a class="button" href="https://youtu.be/pgFGKGhLXfI?si=9lhJ-SZX-SsMwmG2" target="_blank">
+        MilleniumKid & JBS - Vielleicht Vielleicht
+      </a>
+      <a class="button" href="https://youtu.be/0ae8rS7-QoU?si=TqICcVwOI7xDti-n" target="_blank">
+        Lucio Corsi - Volevo essere un duro
+      </a>
+      <a class="button" href="https://youtu.be/m3xfP4M50wo?si=hLAkHue-gQ7aZ6Wc" target="_blank">
+        Ricchi E Poveri - Sara Perche Ti Amo
+      </a>
+      <a class="button" href="https://youtu.be/oEnfMi6XIdA?si=XTSV7mF8YeSyXFmi" target="_blank">
+        Show Me Love (with Tyla)
+      </a>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 EclipseXbert. All rights reserved.</p>
+  </footer>
+</body>
+</html>
