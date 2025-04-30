@@ -135,13 +135,33 @@
   <footer>
     <p>&copy; 2025 EclipseXbert. All rights reserved.</p>
   </footer>
-  <!-- Script per l'animazione -->
+  <!-- Include GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+</head>
+<body>
+  <!-- Contenuto del sito -->
+  <h1 class="top-title">EclipseXbert</h1>
+  <p class="welcome">Benvenuto Sul Sito Di EclipseXbert</p>
+  
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Codice per le animazioni -->
   <script>
     document.addEventListener("DOMContentLoaded", () => {
+      // Animazione per il titolo
       gsap.from(".top-title", {
         y: -100, // Scorre dall'alto
-        duration: 2, // Tempo dell'animazione
+        duration: 2,
         opacity: 0, // Inizia trasparente
+      });
+
+      // Animazione per il paragrafo
+      gsap.from(".welcome", {
+        y: 100, // Scorre dal basso
+        duration: 2,
+        opacity: 0, // Inizia trasparente
+        delay: 0.5, // Ritardo dopo il titolo
       });
     });
   </script>
