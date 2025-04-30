@@ -1,5 +1,4 @@
-
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,10 +38,11 @@
       height: calc(84vh - 84px); /* Ridotta altezza per lasciare spazio al titolo */
       display: flex;
       align-items: center;
-      justify-content: center;
-      text-align: center;
+      justify-content: flex-start; /* Allinea a sinistra */
+      text-align: left; /* Testo allineato a sinistra */
       z-index: 2;
-      flex-direction: column; /* Imposta il layout verticale */
+      flex-direction: column; /* Layout verticale */
+      padding-left: 50px; /* Spazio per separare dal bordo sinistro */
     }
     /* Contenitore centrale */
     .container {
@@ -72,7 +72,7 @@
     }
     /* Bottone per i link */
     .button {
-      display: inline-block;
+      display: block; /* Occupare una riga intera */
       padding: 15px 30px;
       background: #6A5ACD;
       color: black;
@@ -82,10 +82,11 @@
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
       margin: 10px 0; /* Spazio tra i bottoni */
       transition: transform 0.3s ease;
+      text-align: left; /* Testo allineato a sinistra */
     }
     .button:hover {
       transform: scale(1.05);
-      }
+    }
     /* Footer fissato in basso */
     footer {
       background: rgba(0, 0, 0, 0.5);
@@ -135,5 +136,5 @@
   <footer>
     <p>&copy; 2025 EclipseXbert. All rights reserved.</p>
   </footer>
-  </body>
+</body>
 </html>
