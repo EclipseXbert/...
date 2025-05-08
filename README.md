@@ -1,4 +1,4 @@
-<html lang="en">
+<html>
 <head>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
   <meta charset="UTF-8">
